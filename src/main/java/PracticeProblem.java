@@ -3,7 +3,7 @@ public class PracticeProblem {
     public static boolean validIndex(int[] array, int index) {
         try {
             return index >= 0 && index < array.length;
-        } catch (ArrayIndexOutOfBoundsException e) {
+        } catch (ArrayIndexOutOfBoundsException e) { //
             return false;
         }
     }
